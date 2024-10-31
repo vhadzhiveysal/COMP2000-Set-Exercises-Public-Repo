@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start|top">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="8dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textSize="20sp"
+
+            android:id="@+id/back_btn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leave Requests"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name Nameington\n04/02/26 - 18/02/26"
+            android:drawableLeft="@drawable/icon_account_box"
+            android:textSize="20sp"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="8dp"
+            android:textColor="@color/white"
+            android:padding="18dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/employee_btn1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                android:backgroundTint="@color/black"
+                app:cornerRadius="8dp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_marginEnd="40dp"
+
+                android:id="@+id/accept_btn"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Decline"
+                android:backgroundTint="@color/black"
+                app:cornerRadius="8dp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_marginStart="40dp"
+                android:id="@+id/decline_btn"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name Nameington\n04/02/26 - 18/02/26"
+            android:drawableLeft="@drawable/icon_account_box"
+            android:textSize="20sp"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="8dp"
+            android:textColor="@color/white"
+            android:padding="18dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/employee_btn2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                android:backgroundTint="@color/black"
+                app:cornerRadius="8dp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_marginEnd="40dp"
+
+                android:id="@+id/accept_btn2"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Decline"
+                android:backgroundTint="@color/black"
+                app:cornerRadius="8dp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_marginStart="40dp"
+                android:id="@+id/decline_btn2"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name Nameington\n04/02/26 - 18/02/26"
+            android:drawableLeft="@drawable/icon_account_box"
+            android:textSize="20sp"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="8dp"
+            android:textColor="@color/white"
+            android:padding="18dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/employee_btn3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                android:backgroundTint="@color/black"
+                app:cornerRadius="8dp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_marginEnd="40dp"
+
+                android:id="@+id/accept_btn3"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Decline"
+                android:backgroundTint="@color/black"
+                app:cornerRadius="8dp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_marginStart="40dp"
+                android:id="@+id/decline_btn3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

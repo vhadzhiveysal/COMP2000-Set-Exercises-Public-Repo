@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start|top">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="8dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textSize="20sp"
+
+            android:id="@+id/back_btn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textAlignment="center"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Lorem Ipsum"
+            android:textSize="20sp"/>
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Lorem Ipsum"
+            android:textSize="20sp"/>
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Lorem Ipsum"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
